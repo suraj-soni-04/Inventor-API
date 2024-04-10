@@ -57,7 +57,11 @@ This C# snippet defines a Windows Forms application named Form1 within the Inven
 2. Override of the Dispose method for component disposal.
 3. Windows Form Designer generated code for initializing form components, styling myButton, and setting its click event handler.
 4. Form configuration specifying size, button placement, and title ("My Form").
+<hr>
 
+![01](https://github.com/suraj-soni-04/Inventor-API/assets/154866411/cf1c1150-fb7e-4053-87f1-5a9dc18710dc)
+
+![02](https://github.com/suraj-soni-04/Inventor-API/assets/154866411/4180859c-edd6-4e27-9ff5-501738c388cc)
 
 
 
