@@ -8,8 +8,7 @@ This repository contains examples and resources for working with Autodesk Invent
 - [Getting Started](#getting-started)
 - [Examples](#examples)
 - [Documentation](#documentation)
-- [Contributing](#contributing)
-- [License](#license)
+- [My Implementation](#my-implementation)
 
 ## Introduction
 
@@ -45,10 +44,19 @@ You can find these examples in the `Examples` directory of this repository.
 For detailed documentation on the Autodesk Inventor API, refer to the official documentation provided by Autodesk. Here are some useful resources:
 - [Autodesk Inventor API Documentation](https://knowledge.autodesk.com/support/inventor/learn-explore/caas/CloudHelp/cloudhelp/2022/ENU/Inventor-API/files/GUID-63FAA2AC-EE6C-46AC-BD22-15333C5E8F41-htm.html)
 
-## Contributing
+## My Implementation
 
-Contributions to this repository are welcome! If you have any improvements, bug fixes, or additional examples, feel free to open a pull request. Please follow the contribution guidelines outlined in the `CONTRIBUTING.md` file.
+This section will showcase my implementation or customizations using the Autodesk Inventor API with C#. It will include details, code snippets, and explanations of how I utilized the API in my project.
 
-## License
+### Form1.cs
+This C# file is a Windows Forms application that utilizes the Autodesk Inventor API. It includes a form (Form1) with a button (myButton) click event handler. Upon button click, it interacts with the Inventor application by hiding selected component occurrences within an assembly document. The code also handles starting or obtaining a reference to the Inventor application.
 
-This project is licensed under the [MIT License](LICENSE).
+### Form1.Designer.cs
+This C# snippet defines a Windows Forms application named Form1 within the InventorAPI namespace. It includes:
+1. Member variables: components for managing form components and myButton representing a button.
+2. Override of the Dispose method for component disposal.
+3. Windows Form Designer generated code for initializing form components, styling myButton, and setting its click event handler.
+4. Form configuration specifying size, button placement, and title ("My Form").
+
+
+
